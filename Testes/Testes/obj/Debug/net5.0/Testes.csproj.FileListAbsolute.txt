@@ -1,0 +1,16 @@
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\bin\Debug\net5.0\Testes.exe
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\bin\Debug\net5.0\Testes.deps.json
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\bin\Debug\net5.0\Testes.runtimeconfig.json
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\bin\Debug\net5.0\Testes.runtimeconfig.dev.json
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\bin\Debug\net5.0\Testes.dll
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\bin\Debug\net5.0\ref\Testes.dll
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\bin\Debug\net5.0\Testes.pdb
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\obj\Debug\net5.0\Testes.csproj.AssemblyReference.cache
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\obj\Debug\net5.0\Testes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\obj\Debug\net5.0\Testes.AssemblyInfoInputs.cache
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\obj\Debug\net5.0\Testes.AssemblyInfo.cs
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\obj\Debug\net5.0\Testes.csproj.CoreCompileInputs.cache
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\obj\Debug\net5.0\Testes.dll
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\obj\Debug\net5.0\ref\Testes.dll
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\obj\Debug\net5.0\Testes.pdb
+C:\Users\hugob\Documents\Bootcamp ASPNET\Testes\Testes\obj\Debug\net5.0\Testes.genruntimeconfig.cache
