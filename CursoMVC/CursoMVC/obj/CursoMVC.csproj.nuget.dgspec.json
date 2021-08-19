@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hugob\\Documents\\Bootcamp ASPNET\\CursoMVC\\CursoMVC\\CursoMVC.csproj": {}
+    "C:\\Users\\hugob\\Documents\\ASPNET\\Bootcamp_ASPNET\\CursoMVC\\CursoMVC\\CursoMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hugob\\Documents\\Bootcamp ASPNET\\CursoMVC\\CursoMVC\\CursoMVC.csproj": {
+    "C:\\Users\\hugob\\Documents\\ASPNET\\Bootcamp_ASPNET\\CursoMVC\\CursoMVC\\CursoMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hugob\\Documents\\Bootcamp ASPNET\\CursoMVC\\CursoMVC\\CursoMVC.csproj",
+        "projectUniqueName": "C:\\Users\\hugob\\Documents\\ASPNET\\Bootcamp_ASPNET\\CursoMVC\\CursoMVC\\CursoMVC.csproj",
         "projectName": "CursoMVC",
-        "projectPath": "C:\\Users\\hugob\\Documents\\Bootcamp ASPNET\\CursoMVC\\CursoMVC\\CursoMVC.csproj",
+        "projectPath": "C:\\Users\\hugob\\Documents\\ASPNET\\Bootcamp_ASPNET\\CursoMVC\\CursoMVC\\CursoMVC.csproj",
         "packagesPath": "C:\\Users\\hugob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hugob\\Documents\\Bootcamp ASPNET\\CursoMVC\\CursoMVC\\obj\\",
+        "outputPath": "C:\\Users\\hugob\\Documents\\ASPNET\\Bootcamp_ASPNET\\CursoMVC\\CursoMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

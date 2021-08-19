@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0pv+ZXzAal8+FRK2/BgmmLmAgzXqz4th8k5t+9diA3EcrAJXjiLWMvYwMYwRG+3hwdGb/nLYyk0R7DG172GJvQ==",
+  "dgSpecHash": "0sRemsx56w6mMLAtk7mDjaJDN+S1bWMuvS7T7iby7iDTPWka/RZxxcsv1r/g2EiksThWTXi3u2K0rcSaNObXmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hugob\\Documents\\Bootcamp ASPNET\\CursoMVC\\CursoMVC\\CursoMVC.csproj",
+  "projectFilePath": "C:\\Users\\hugob\\Documents\\ASPNET\\Bootcamp_ASPNET\\CursoMVC\\CursoMVC\\CursoMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hugob\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\hugob\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
