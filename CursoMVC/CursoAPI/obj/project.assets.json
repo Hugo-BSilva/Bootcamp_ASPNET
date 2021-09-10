@@ -72,6 +72,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "CursoMVC/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/CursoMVC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CursoMVC.dll": {}
+        }
       }
     }
   },
@@ -191,10 +201,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.1.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "CursoMVC/1.0.0": {
+      "type": "project",
+      "path": "../CursoMVC/CursoMVC.csproj",
+      "msbuildProject": "../CursoMVC/CursoMVC.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "CursoMVC >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.1"
     ]
   },
@@ -229,7 +245,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\hugob\\Documents\\ASPNET\\Bootcamp_ASPNET\\CursoMVC\\CursoMVC\\CursoMVC.csproj": {
+              "projectPath": "C:\\Users\\hugob\\Documents\\ASPNET\\Bootcamp_ASPNET\\CursoMVC\\CursoMVC\\CursoMVC.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -274,5 +294,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project CursoMVC is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project CursoMVC supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "CursoMVC",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
