@@ -49,7 +49,7 @@ namespace CursoAPI.Controllers
             {
                 return BadRequest();
             }
-            _contexto.Entry(categoria).State = EntityState.Modified;
+            _contexto.SetModified(categoria);
 
             try
             {

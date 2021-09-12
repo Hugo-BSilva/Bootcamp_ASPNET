@@ -1,0 +1,53 @@
+[33mcommit d49005bff5171cdf378618acc7d70b3938babd22[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: hugo-bsilva <09silvahugo@gmail.com>
+Date:   Sun Sep 12 15:11:47 2021 -0300
+
+    Add_ProjetoDeTeste
+
+[33mcommit 794f9df4f61769ab360079143e7bc064999ca08b[m
+Author: hugo-bsilva <09silvahugo@gmail.com>
+Date:   Sun Sep 12 14:07:26 2021 -0300
+
+    Update_MetodosAPI
+
+[33mcommit e62fb70fe79f6011ea4b68532641d4110acc4260[m
+Author: hugo-bsilva <09silvahugo@gmail.com>
+Date:   Sun Sep 12 01:09:32 2021 -0300
+
+    Correcao100%_AtualizacaoDePacotes-5.0.8
+
+[33mcommit 37a10ea7cc635dda389259d068d053df5757c761[m
+Author: hugo-bsilva <09silvahugo@gmail.com>
+Date:   Sat Sep 11 23:59:32 2021 -0300
+
+    Corrigindo_Erro_ItemScaffold
+
+[33mcommit 62b3faa642821fdcc83bf946bef12d149feb463a[m
+Author: hugo-bsilva <09silvahugo@gmail.com>
+Date:   Thu Sep 9 23:50:23 2021 -0300
+
+    Add_CursoMVC_Correcao-VersaoDoProjeto5.0
+
+[33mcommit 2764cb67b103d17660ad925c88bd39969ddfade3[m
+Author: hugo-bsilva <09silvahugo@gmail.com>
+Date:   Thu Sep 9 08:48:38 2021 -0300
+
+    Add_CursoAPI_eConfiguracaoDoSwagger
+
+[33mcommit d4674486c68e36028870dd44ee46449bdd7521ca[m
+Author: hugo-bsilva <09silvahugo@gmail.com>
+Date:   Wed Aug 18 21:32:48 2021 -0300
+
+    CursoMVC_100%
+
+[33mcommit aaf1091cb46edb94b597b169fab24e56cda768e1[m
+Author: hugo-bsilva <09silvahugo@gmail.com>
+Date:   Tue Aug 17 22:40:22 2021 -0300
+
+    Update_Files_CursoMVC
+
+[33mcommit f6903f14ca94ca6ff75889f47ba5b0cf29ad956e[m
+Author: Hugo Barbosa da Silva <70847074+Hugo-BSilva@users.noreply.github.com>
+Date:   Sat Jul 3 14:23:07 2021 -0300
+
+    Initial commit
