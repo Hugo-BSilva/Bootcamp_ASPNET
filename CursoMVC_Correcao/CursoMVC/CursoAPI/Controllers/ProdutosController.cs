@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CursoMVC.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace CursoAPI.Controllers
 {
@@ -24,14 +25,17 @@ namespace CursoAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Produto>>> GetProdutos()
         {
-            return await _context.Produtos.ToListAsync();
+            // Include para acrescentar os dados da classe Categoria
+            return await _context.Produtos.Include("Categoria").ToListAsync();
         }
 
         // GET: api/Produtos/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Produto>> GetProduto(int id)
         {
-            var produto = await _context.Produtos.FindAsync(id);
+            // var produto = await _context.Produtos.FindAsync(id);
+            // Para pegar a categoria+produto do parâmetro id passado
+            var produto = await _context.Produtos.Include("Categoria").FirstOrDefaultAsync(predicate: x => x.Id == id);
 
             if (produto == null)
             {
@@ -76,11 +80,11 @@ namespace CursoAPI.Controllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Produto>> PostProduto(Produto produto)
-        {
+        {         
             _context.Produtos.Add(produto);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetProduto", new { id = produto.Id }, produto);
+            return CreatedAtAction("GetProduto", new { id = produto.Id}, produto);
         }
 
         // DELETE: api/Produtos/5
