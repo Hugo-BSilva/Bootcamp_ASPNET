@@ -80,11 +80,11 @@ namespace CursoAPI.Controllers
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Produto>> PostProduto(Produto produto)
-        {         
+        {
             _context.Produtos.Add(produto);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetProduto", new { id = produto.Id}, produto);
+            return CreatedAtAction("GetProduto", new { id = produto.Id }, produto) ;
         }
 
         // DELETE: api/Produtos/5
@@ -106,6 +106,6 @@ namespace CursoAPI.Controllers
         private bool ProdutoExists(int id)
         {
             return _context.Produtos.Any(e => e.Id == id);
-        }
+        }        
     }
 }
