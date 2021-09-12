@@ -13,6 +13,9 @@ namespace CursoMVC.Models
         //Caso o usuário tente criar uma categoria sem descrição, vai retornar essa msn
         [Required(ErrorMessage = "O campo descrição é obrigatório")]
         public string Descricao { get; set; }
-        public List<Produto> Produtos { get; set; }
+
+        // Remover essa lista para que não de problema(loop) quando essa classe
+        // For chamada na API
+        //public List<Produto> Produtos { get; set; }
     }
 }
