@@ -29,7 +29,8 @@ namespace CursoAPI
         {
 
             services.AddControllers();
-            services.AddDbContext<Contexto>();
+            services.AddControllersWithViews();
+            services.AddDbContext<Context>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Curso API", Version = "v1" });

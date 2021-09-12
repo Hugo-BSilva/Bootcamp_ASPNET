@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoMVC.Models
 {
-    public class Contexto : DbContext
+    public class Context : DbContext
     {
         //Tabela com nome Categorias, realizar Add-Migration InitialCreate
         public DbSet<Categoria> Categorias { get; set; }

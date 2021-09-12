@@ -11,9 +11,9 @@ namespace CursoMVC.Controllers
 {
     public class CategoriasController : Controller
     {
-        private readonly Contexto _context;
+        private readonly Context _context;
 
-        public CategoriasController(Contexto context)
+        public CategoriasController(Context context)
         {
             _context = context;
         }

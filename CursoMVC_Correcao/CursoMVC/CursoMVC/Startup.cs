@@ -26,7 +26,7 @@ namespace CursoMVC
         {
             services.AddControllersWithViews();
             //Criado na Model Contexto 
-            services.AddDbContext<Contexto>();
+            services.AddDbContext<Context>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

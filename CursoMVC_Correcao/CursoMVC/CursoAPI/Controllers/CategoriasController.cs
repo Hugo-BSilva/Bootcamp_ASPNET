@@ -14,9 +14,9 @@ namespace CursoAPI.Controllers
     [ApiController]
     public class CategoriasController : ControllerBase
     {
-        private readonly Contexto _contexto;
+        private readonly Context _contexto;
 
-        public CategoriasController(Contexto contexto)
+        public CategoriasController(Context contexto)
         {
             _contexto = contexto;
         }
